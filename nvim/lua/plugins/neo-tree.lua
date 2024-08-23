@@ -12,7 +12,7 @@ return {
         sources = {
           "filesystem",
           -- "buffers",
-          "git_status",
+          -- "git_status",
         },
         enable_git_status = false,
         enable_diagnostics = true,
@@ -53,8 +53,8 @@ return {
         },
         filesystem = {
           follow_current_file = {
-          enabled = true, -- this will find and focus the file in the active buffer every time
-          leave_dirs_open = false, -- `false` closes auto expanded dirs, such as with `:neotree reveal`
+            enabled = true, -- this will find and focus the file in the active buffer every time
+            leave_dirs_open = false, -- `false` closes auto expanded dirs, such as with `:neotree reveal`
           },
         },
       })

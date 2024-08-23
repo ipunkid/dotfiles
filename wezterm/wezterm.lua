@@ -4,8 +4,8 @@ local mux = wezterm.mux
 local config = {
 	-- Appearance
 	color_scheme = "Night Owl (Gogh)",
-	window_background_opacity = 0.95, -- Set to 1.0 for better performance
-	macos_window_background_blur = 5,
+	window_background_opacity = 0.85,
+	macos_window_background_blur = 50,
 	window_decorations = "RESIZE",
 	window_padding = {
 		left = 20,
@@ -38,7 +38,6 @@ local config = {
 	show_tab_index_in_tab_bar = false,
 	tab_max_width = 30,
 	use_fancy_tab_bar = true,
-	-- tab_bar_at_bottom = true,
 
 	-- Scrollback
 	scrollback_lines = 99999,

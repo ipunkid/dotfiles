@@ -106,8 +106,8 @@ source <(fzf --zsh)
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls="ls -G"
 alias ll="ls -Glh"
-alias wptheme="cd /Users/punkid/Studio/wordpress/wp-content/themes/Neuvetica"
-alias updatewp="sh /Users/punkid/Scripts/neuvetica.sh"
+alias wptheme="cd $HOME/Studio/wordpress/wp-content/themes/Neuvetica"
+alias updatewp="sh $HOME/Scripts/neuvetica.sh"
 export PATH="$(brew --prefix python)/libexec/bin:$PATH"
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
 export http_proxy=http://127.0.0.1:7890

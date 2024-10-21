@@ -18,5 +18,5 @@ return {
         -- ENABLE → DISABLE
       }
     })
-  end
+  end,
 }

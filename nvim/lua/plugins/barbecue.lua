@@ -6,7 +6,13 @@ return {
     "SmiteshP/nvim-navic",
     "nvim-tree/nvim-web-devicons", -- optional dependency
   },
-  opts = {
-    -- configurations go here
-  },
+  config = function()
+    require("barbecue").setup({
+      theme = {
+        separator = { fg = '#5f7e97' },
+        dirname = { fg = '#c5e478' },
+      },
+      show_dirname = true,
+    })
+  end,
 }

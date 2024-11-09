@@ -56,6 +56,7 @@ return {
             enabled = true, -- this will find and focus the file in the active buffer every time
             leave_dirs_open = false, -- `false` closes auto expanded dirs, such as with `:neotree reveal`
           },
+              bind_to_cwd = false,
         },
       })
     end

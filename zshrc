@@ -106,6 +106,7 @@ source <(fzf --zsh)
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls="ls -G"
 alias ll="ls -Glh"
+alias vi="nvim"
 alias wptheme="cd $HOME/Studio/wordpress/wp-content/themes/Neuvetica"
 alias updatewp="sh $HOME/Scripts/neuvetica.sh"
 export PATH="$(brew --prefix python)/libexec/bin:$PATH"

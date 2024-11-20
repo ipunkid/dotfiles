@@ -9,6 +9,7 @@ return {
       },
       additions = {
         {'left', 'right'},
+        {'top', 'bottom'},
         {'before', 'after'},
       },
       allow_caps_additions = {

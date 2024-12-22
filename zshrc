@@ -73,6 +73,9 @@ ENABLE_CORRECTION="true"
 plugins=(
   brew 
   git
+  npm
+  python
+  ssh
 )
 
 source $ZSH/oh-my-zsh.sh

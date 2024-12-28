@@ -12,7 +12,7 @@ return {
         sources = {
           "filesystem",
           -- "buffers",
-          -- "git_status",
+          "git_status",
         },
         enable_git_status = false,
         enable_diagnostics = true,

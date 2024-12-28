@@ -81,6 +81,7 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source <(fzf --zsh)
+source ~/.config/exportrc
 
 # User configuration
 

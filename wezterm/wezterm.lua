@@ -29,7 +29,7 @@ local config = {
 	window_close_confirmation = "NeverPrompt",
 
 	-- Font
-	font = wezterm.font_with_fallback({ "JetBrains Mono" }),
+	font = wezterm.font_with_fallback({ "JetBrainsMono Nerd Font Mono" }),
 	font_size = 13,
 
 	-- Tab Bar
@@ -40,7 +40,7 @@ local config = {
 	use_fancy_tab_bar = true,
 
 	-- Scrollback
-	scrollback_lines = 99999,
+	scrollback_lines = 19999,
 
 	-- Colors
 	colors = {

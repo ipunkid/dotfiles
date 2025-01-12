@@ -3,7 +3,7 @@ return {
   event = "VeryLazy",
   lazy = false,
   version = false,
-  build = "make",
+  -- build = "make",
   opts = {
     provider = "openai",
     openai = {

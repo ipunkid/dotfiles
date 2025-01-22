@@ -10,7 +10,7 @@ return {
       })
 			vim.cmd.colorscheme("night-owl")
 			vim.cmd("highlight BufferLineSeparator guibg=None guifg=#161821")
-			-- vim.cmd("highlight NormalFloat guibg=None")
+			vim.cmd("highlight NoicePopup guibg=None")
 		end,
 	},
  }

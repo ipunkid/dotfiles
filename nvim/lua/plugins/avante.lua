@@ -5,19 +5,19 @@ return {
   version = false,
   -- build = "make",
   opts = {
-    provider = "openai",
-    openai = {
-      endpoint = "https://api.deepseek.com",
-      model = "deepseek-chat",
-      timeout = 30000,
-      temperature = 0,
-      max_tokens = 4096,
-    },
-    -- provider = "copilot",
-    -- auto_suggestions_provider = "copilot",
-    -- copilot = {
-    --   model = "claude-3.5-sonnet",
+    -- provider = "openai",
+    -- openai = {
+    --   endpoint = "https://api.deepseek.com",
+    --   model = "deepseek-chat",
+    --   timeout = 30000,
+    --   temperature = 0,
+    --   max_tokens = 4096,
     -- },
+    provider = "copilot",
+    auto_suggestions_provider = "copilot",
+    copilot = {
+      model = "claude-3.5-sonnet",
+    },
     behaviour = {
       auto_suggestions = false,
       auto_set_highlight_group = true,
@@ -32,6 +32,7 @@ return {
     "stevearc/dressing.nvim",
     "nvim-lua/plenary.nvim",
     "MunifTanjim/nui.nvim",
+    "zbirenbaum/copilot.lua",
     {
       'MeanderingProgrammer/render-markdown.nvim',
       opts = { file_types = { "markdown", "Avante" } },

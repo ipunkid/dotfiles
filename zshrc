@@ -76,12 +76,14 @@ plugins=(
   npm
   python
   ssh
+  zoxide
 )
 
 source $ZSH/oh-my-zsh.sh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source <(fzf --zsh)
 source ~/.config/exportrc
+eval "$(zoxide init zsh)"
 
 # User configuration
 

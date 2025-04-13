@@ -9,7 +9,7 @@ return {
 	config = function()
 		-- New color table and conditions
 		local colors = {
-			bg = "None", -- Ensure this is a valid color or nil
+			bg = nil, -- Ensure this is a valid color or nil
 			fg = "#45657b",
 			yellow = "#ecc58d",
 			cyan = "#21c7a8",

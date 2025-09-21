@@ -121,3 +121,6 @@ export http_proxy=http://127.0.0.1:7890
 export https_proxy=http://127.0.0.1:7890
 export all_proxy=socks5://127.0.0.1:7890
 export TERM="xterm-256color-italic"
+
+# Created by `pipx` on 2025-09-07 12:46:01
+export PATH="$PATH:/Users/punkid/.local/bin"

@@ -14,6 +14,7 @@ return {
 			vim.cmd("highlight WinBar guibg=None")
 			vim.cmd("highlight WinBarNC guibg=None")
 			vim.cmd("highlight StatusLine guibg=None")
+			vim.cmd("highlight NormalFloat guibg=None")
 		end,
 	},
  }

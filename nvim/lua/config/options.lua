@@ -4,5 +4,6 @@ opt.tabstop = 2
 opt.wrap = true
 opt.termguicolors = false
 opt.shell = "/bin/zsh"
+opt.conceallevel = 0
 vim.g.autoformat = false
 vim.g.lazyvim_picker = "fzf"

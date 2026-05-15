@@ -114,12 +114,9 @@ alias ls="ls -G"
 alias ll="ls -Glh"
 alias vi="nvim"
 alias bu="brew upgrade && brew cu -a && brew cleanup"
-export PATH="$(brew --prefix python)/libexec/bin:$PATH"
+export PATH="$(brew --prefix python)/libexec/bin:$PATH:/Users/punkid/.local/bin"
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
 export http_proxy=http://127.0.0.1:7890
 export https_proxy=http://127.0.0.1:7890
 export all_proxy=socks5://127.0.0.1:7890
 export TERM="xterm-256color-italic"
-
-# Created by `pipx` on 2025-09-07 12:46:01
-export PATH="$PATH:/Users/punkid/.local/bin"

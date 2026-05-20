@@ -119,5 +119,6 @@ export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bott
 export http_proxy=http://127.0.0.1:7890
 export https_proxy=http://127.0.0.1:7890
 export all_proxy=socks5://127.0.0.1:7890
+export no_proxy=127.0.0.1,localhost,::1
 export XDG_CONFIG_HOME="$HOME/.config"
 export TERM="xterm-256color-italic"

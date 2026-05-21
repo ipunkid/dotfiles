@@ -114,6 +114,7 @@ alias ls="ls -G"
 alias ll="ls -Glh"
 alias vi="nvim"
 alias bu="brew upgrade && brew cu -a && brew cleanup"
+alias cdg='cd "$(git rev-parse --show-toplevel 2>/dev/null)"'
 export PATH="$(brew --prefix python)/libexec/bin:$PATH:/Users/punkid/.local/bin"
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
 export http_proxy=http://127.0.0.1:7890
